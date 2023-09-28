@@ -1,0 +1,86 @@
+1. git init;
+Initializing git: 
+Create a project folder and go inside the path and type "git init" cmd.
+git init;
+
+
+
+2. git status;
+Shows the files in the current project which are untracked by git.
+
+
+3. git add . or git add names.txt;
+It adds the specified file thats needs to be tracked in the staging area so that it can be saved using commit.
+(Dot . add all files to the staging area or we can specify the file name).
+
+
+4. git commit -m "names.txt file is added"
+It just saves the current updated version of a project.
+(-m = message).
+
+
+
+5. git restore --staged names.txt;
+Removes the files from staging area which has been accidentally added.
+
+
+6. git log
+Shows all the changes and history of the project.
+All the commits that were made in the history are shown.
+
+
+7. git reset f89797f934ffa02432
+Reset all of the previous commits that were done.
+The previous commits are put back into unstaged area and if we want to be in staging area we can simply put " git add "filename.txt" " command
+
+
+
+8. git stash
+If you want to make changes and save it without commit you can use git stash.
+
+9. git stash pop
+If you want to get back those changes that were done by "git stash" you can use "git stash pop"
+
+10. git stash clear
+Delete the stash area. permanently gone.
+
+
+11. git remote add origin "https://github.com/ganeshmurthib/bankapp.git";
+Connect our project to the github using git.
+origin - Name of the link (We can use any name but it is default);
+
+
+12. git push origin master;
+To make the changes that we've done in the project
+master - Branch name;
+
+
+
+
+
+
+13. Branches
+when youre working in new features or bug fixes, always create a new branch.
+This helps us to modify the code without affecting the main code.
+
+
+
+
+14. git branch (branch-name);
+git branch feature;
+Create a new branch "feature" in our project.
+
+
+15. git checkout feature;
+Change our branch into "feature".
+
+
+
+16.
+
+
+
+
+
+
+
