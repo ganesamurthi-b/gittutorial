@@ -76,8 +76,6 @@ Change our branch into "feature".
 
 
 
-16.
-
 
 
 
