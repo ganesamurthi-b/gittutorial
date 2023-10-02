@@ -30,7 +30,7 @@ All the commits that were made in the history are shown.
 
 
 7. git reset f89797f934ffa02432
-Reset all of the previous commits that were done.
+Deletes all the commits that were done above this HASH ID.
 The previous commits are put back into unstaged area and if we want to be in staging area we can simply put " git add "filename.txt" " command
 
 
